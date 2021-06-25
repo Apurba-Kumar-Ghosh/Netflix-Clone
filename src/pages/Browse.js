@@ -9,8 +9,7 @@ export default function Browse() {
   console.log(slides);
   return (
     <>
-      <BrowseContainer />
-      <BrowseContainer />
+      <BrowseContainer slides={ slides}/>
     </>
   );
 }

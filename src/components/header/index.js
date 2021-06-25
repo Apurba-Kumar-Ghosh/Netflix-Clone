@@ -85,7 +85,7 @@ Header.Search = function HeaderSearch({
         type="text"
         placeholder="Search Movies and Series"
         value={searchTerm}
-        onChange={({ target }) => setSearchTerm(target)}
+        onChange={({ target }) => setSearchTerm(target.value)}
         active={isSearchActive}
       />
     </Search>
